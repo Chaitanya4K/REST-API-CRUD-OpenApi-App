@@ -17,8 +17,8 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("Book Management REST API")
-                        .description("REST API for performing CRUD operations on Book entity")
-                        .version("1.0.0")
+                        .description("CRUD operations on Book")
+                        .version("1.0")
                         .contact(new Contact()
                                 .name("Chaitanya K")
                                 .email("chaitanya@example.com"))
@@ -26,7 +26,7 @@ public class OpenApiConfig {
                                 .name("Apache 2.0")
                                 .url("https://www.apache.org/licenses/LICENSE-2.0")))
                 .addServersItem(new Server()
-                        .url("http://")
-                        .description("Local Development Server"));
+                        .url("/")
+                        .description("Railway Server"));
     }
 }
