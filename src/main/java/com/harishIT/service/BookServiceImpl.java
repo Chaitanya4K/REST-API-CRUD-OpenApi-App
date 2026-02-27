@@ -21,13 +21,13 @@ public class BookServiceImpl implements BookService {
 	public String upsertBook(Book book) {
 
 		Integer bookId = book.getBookId();
-		
+
 		System.out.println(" Before calling Save() method " + book);
 
 		bookRepo.save(book);
-		
-		System.out.println(" After calling save() method "+ book);
-		
+
+		System.out.println(" After calling save() method " + book);
+
 		if (book.getBookId() == null) {
 			return "Record Inserted";
 		} else {

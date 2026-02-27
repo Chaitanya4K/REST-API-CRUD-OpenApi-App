@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.harishIT</groupId>
-	<artifactId>39-REST-API-CRUD-App-6</artifactId>
+	<artifactId>39-REST-API-CRUD-Deployment-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>39-REST-API-CRUD-App-6</name>
+	<name>39-REST-API-Deployment-App</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
